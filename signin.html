@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    input[type="text"], input[type="password"]{
+      border-radius: 5px;
+    }
+    h3 {
+      font-family: helvetica;
+      font-weight: lighter;
+      color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <form action="index.html" method="post">
+    <label for="general"> <h3>General Info</h3>
+      <input type="text" name="firstname" placeholder="First Name">
+      <br>
+      <input type="text" name="lastname" placeholder="Last Name">
+      <br>
+      <input type="text" name="email" placeholder="Email Address">
+      <br>
+      </label>
+      <br>
+    <label for="Donut Flaor"> <h3>Which is your favorite?</h3>
+      <input type="checkbox" name="donut" value="chocolate">Chocolate
+      <input type="checkbox" name="donut" value="glazed">Glazed
+      <input type="checkbox" name="donut" value="cake">Cake
+      <input type="checkbox" name="donut" value="oldfashioned">Old Fashioned
+      <input type="checkbox" name="donut" value="holes">Holes
+      <input type="checkbox" name="donut" value="jelly">Jelly
+    </label>
+      <br>
+      <br>
+    <label for="Submit"> <h3>Thank You!</h3>
+      <input type="submit" name="submit" value="Submit">
+    </label>
+  </form>
+
+</body>
+</html>

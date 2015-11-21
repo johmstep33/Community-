@@ -1,0 +1,9 @@
+{
+  "firebase": "donutdugout",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

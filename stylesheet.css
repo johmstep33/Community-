@@ -1,0 +1,46 @@
+body {
+  background-color: #00fa9a;
+}
+nav {
+  text-align: center;
+  color: #ffffff;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+h1 {
+  color: #ffffff;
+  font-size: 400%;
+  font-family: helvetica;
+  text-align: center;
+}
+  p {
+    align-content: center;
+    color: c71585;
+  }
+  img {
+    width: 300px;
+    margin: 0 auto;
+  }
+  div {
+    background-color: #008b8b;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    width: 960px;
+    border-radius: 30px;
+  }
+  .lorem1 {
+    background-color: #ffffff;
+    color: #008b8b;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: lighter;
+    margin-bottom: 20px;
+  }
+  .lorem2 {
+    background-color: #008b8b;
+    color: #ffffff;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: lighter;
+  }
